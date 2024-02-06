@@ -1,5 +1,5 @@
-// Psuedo Code here
-//we will count the number of turns left
+// Psuedo Code here from class
+// we will count the number of turns left
 // make a counter variable to count the number of remaining turns
 // variable for max number of turns
 
@@ -91,17 +91,19 @@ function startGame(word){
     for(let i=0; i < word.length; i++){
         letterArray[i] = "_";
         updateGameState();
-        // makes readonly turn off  rememeber . means look at userInput and then look at the readOnly and now change it
+        // makes readonly turn off meaning look at userInput and then look at the readOnly and now change it
         userInput.readOnly = false;  
 
     }
 }
 
+// function adds empty space between the underscores from the letterArray at start of game but if letters are being guessed then it will join the letters with a space between them and updates guesses used area with the values within guesses and maxGuesses
 function updateGameState(){
     displayedWord.textContent = letterArray.join(" ");
     displayedGuesses.textContent = `Guesses Used: ${guesses} / ${maxGuesses}`;
 }
 
+// resets variables with blank value, sets arrays to blank and resets the display area to the original starting values/words
 function resetGame(){
     randomWord = "";
     wrongGuess = "";
