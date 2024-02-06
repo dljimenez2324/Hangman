@@ -19,9 +19,17 @@ h3 {
 }
 
 .inputBg {
-    background-color: lightcyan;
+    background-color: rgb(200, 233, 233);
 }
 
 .hangB {
     border: 0.5rem solid black;
+}
+
+.mainMP {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    width: 70%;
 }

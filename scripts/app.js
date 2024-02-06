@@ -119,7 +119,7 @@ function gameEnd(){
     // Win: check if randomWord === letterArray
 
     if(guesses === maxGuesses){
-        alert(`You Lose! Your word was ${randomWord}!`);
+        alert(`You Lose! Your word was ${randomWord}! Good luck next time!`);
         resetGame();
     }
     else if(letterArray.join("") === randomWord && randomWord !=""){
