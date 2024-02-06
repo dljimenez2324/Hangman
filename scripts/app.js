@@ -1,6 +1,4 @@
-// psudocode first
-
-
+// Psuedo Code here
 //we will count the number of turns left
 // make a counter variable to count the number of remaining turns
 // variable for max number of turns
@@ -28,9 +26,10 @@ let randomWord = "";
 // this will contain an array that we will join together later in order to display the underscores, & letters they have guessed correctly, in the spaces they would take up in a word
 let letterArray = [];
 
-// number of guess they have made, starts at zero
+// number of missed guess they have made, starts at zero
 let guesses = 0;
 
+// max number of missed guesses
 let maxGuesses = 6;
 
 // this will be the letters they have guessed
