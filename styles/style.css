@@ -1,3 +1,19 @@
+/* fonts section */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+    font-family: 'Happy Monkey', system-ui;
+}
+
+h1 {
+    font-weight:bolder;
+    font-size: 4rem;
+}
+
+h3 {
+    font-weight:bolder;
+    font-size: 2rem;
+}
 .bG {
     background-image: url("../media/wall-texture.jpg");
 }
@@ -6,3 +22,6 @@
     background-color: lightcyan;
 }
 
+.hangB {
+    border: 0.5rem solid black;
+}
