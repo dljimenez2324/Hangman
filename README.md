@@ -13,6 +13,5 @@ Rebuild hangman with your own style. Organize the code in a way that you hypothe
 See GitHub for history of changes
 <b>Reviewer:</b> <br>
 <b>Name:</b> Alicia Bryant <br>
-The website ________. 
-
+ 
 David, your hangman game is functional and very sleek. Its straight to the point, no funny business what so ever. Your coding skills are constantly improiving and I look forward to watching you grow. Great job!
